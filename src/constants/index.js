@@ -91,7 +91,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/summarizer-tool.png",
     tags: [
       {
         id: 1,
