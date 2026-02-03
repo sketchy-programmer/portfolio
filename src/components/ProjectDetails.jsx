@@ -54,8 +54,6 @@ const ProjectDetails = ({
             </div>
             <a
               href={href}
-              target="_blank"
-              rel="noopener noreferrer"
               className="inline-flex items-center gap-1 
   font-medium hover-animation cursor-pointer"
             >

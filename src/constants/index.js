@@ -88,7 +88,7 @@ export const myProjects = [
       "Integrated Stripe payment system for one-time licensing and managed cross-platform (Winows, MacOS, Linux) compatibility.",
       "Built dynamic settings UI to manage writing style, word count, and theme preferences.",
     ],
-    href: "https://summarizer-tool-8dd98b6dcbe8.herokuapp.com/",
+    href: "https://summarizer-tool-8dd98b6dcbe8.herokuapp.com",
     logo: "",
     image: "/assets/projects/summarizer-tool.png",
     tags: [
@@ -183,7 +183,7 @@ export const myProjects = [
       "Designed a clean, responsive UI using Tailwind CSS and Lucide icons.",
       "Deployed the frontend on Vercel with continuous GitHub integration.",
     ],
-    href: "https://resume-tailor-frontend-dun.vercel.app/",
+    href: "https://resume-tailor-frontend-dun.vercel.app",
     logo: "",
     image: "/assets/projects/resume-tailor.png",
     tags: [
