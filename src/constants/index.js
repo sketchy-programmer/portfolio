@@ -81,8 +81,7 @@ export const myProjects = [
   {
     id: 3,
     title: "Summarizer Tool",
-    description:
-      "A application that summarizes text using AI.",
+    description: "A application that summarizes text using AI.",
     subDescription: [
       "Developed a robust text and code summarization tool supporting multiple writing styles (academic, casual, buisness).",
       "Enabled desktop deployment with a floating UI component for real-time summarization triggered by hotkeys.",
@@ -127,7 +126,7 @@ export const myProjects = [
         id: 7,
         name: "Cross-Platform",
         path: "/assets/logos/cross-platform.png",
-      }
+      },
     ],
   },
   {
@@ -284,27 +283,27 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Junior Front-End Developer",
+    job: "Best Price Flipkart Wholesale, India",
+    date: "2022-2023",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Developed and maintained responsive user interfaces using React.js, JavaScript (ES6+), HTML, and CSS, ensuring compatibility across modern browsers and devices.",
+      "Collaborated closely with backend developers to integrate RESTful APIs, enabling dynamic data rendering and seamless user interactions.",
+      "Converted UI/UX designs into clean, reusable, and well-structured frontend components following best practices.",
+      "Optimized frontend performance by reducing unnecessary re-renders and improving component structure, enhancing overall user experience.",
+      "Participated in debugging, testing, and resolving frontend issues to ensure high-quality, stable releases.",
+      "Worked in a collaborative team environment, actively contributing to code reviews and technical discussions.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Freelance Full-Stack Developer",
+    job: "Indian Delicacy",
+    date: "2023-2023",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Spreadeaded the development of a dynamic online full-stack restaurant application enabling users to browse menus, subscribe to newsletters, and place online orders.",
+      "Orchestrated user-role differentiation with secure login functionality for both customers and admins.",
+      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
+      "Admin dashboard included CRUD operations for supervising menu items, and pricing",
     ],
   },
   {
