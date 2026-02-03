@@ -88,7 +88,7 @@ export const myProjects = [
       "Integrated Stripe payment system for one-time licensing and managed cross-platform (Winows, MacOS, Linux) compatibility.",
       "Built dynamic settings UI to manage writing style, word count, and theme preferences.",
     ],
-    href: "",
+    href: "https://summarizer-tool-8dd98b6dcbe8.herokuapp.com/",
     logo: "",
     image: "/assets/projects/summarizer-tool.png",
     tags: [
