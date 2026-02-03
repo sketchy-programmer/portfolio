@@ -8,7 +8,7 @@ import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 
 const App = () => {
-  return <div className='container mx-auto max-w-7xl'>
+  return <div className='container mx-auto max-w-7xl w-full overflow-x-hidden'>
     <Navbar />
     <Hero />
     <About />
