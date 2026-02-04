@@ -139,9 +139,9 @@ export const myProjects = [
       "The Systems analyzes project inputs and generates a detailed schedule with task breakdowns, durations, and resource allocation.",
       "Implemented projects data storage and efficient schedule generation algorithms.",
     ],
-    href: "",
+    href: "https://ai-schedule-generator-2e0bff4ac042.herokuapp.com",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/scheduleGenerator.png",
     tags: [
       {
         id: 1,
