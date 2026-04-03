@@ -283,39 +283,34 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Junior Front-End Developer",
-    job: "Best Price Flipkart Wholesale, India",
-    date: "2022-2023",
+    title: "QA Software Tester",
+    job: "TechNova Solutions Inc. — Toronto, ON",
+    date: "Apr 2025 – Jul 2025",
     contents: [
-      "Developed and maintained responsive user interfaces using React.js, JavaScript (ES6+), HTML, and CSS, ensuring compatibility across modern browsers and devices.",
-      "Collaborated closely with backend developers to integrate RESTful APIs, enabling dynamic data rendering and seamless user interactions.",
-      "Converted UI/UX designs into clean, reusable, and well-structured frontend components following best practices.",
-      "Optimized frontend performance by reducing unnecessary re-renders and improving component structure, enhancing overall user experience.",
-      "Participated in debugging, testing, and resolving frontend issues to ensure high-quality, stable releases.",
-      "Worked in a collaborative team environment, actively contributing to code reviews and technical discussions.",
+      "Designed and executed 600+ manual test cases for a SaaS project management platform with 50,000+ active users, ensuring comprehensive coverage of critical business workflows and core modules.",
+      "Built and maintained automated regression suites using Cypress and Java with TestNG and listener classes in Docker containers on AWS, reducing regression cycle time by 40% and catching 3× more pre-release defects.",
+      "Conducted API automation using Postman, REST Assured, and Karate on .NET/C# services and performed network traffic analysis with Wireshark to validate 120+ endpoints for correctness, authentication, error handling, and edge cases.",
+      "Performed database validation using SQL queries on PostgreSQL and MongoDB in GCP environments to verify data integrity across complex transactional workflows and batch jobs, catching data inconsistencies that prevented potential production issues.",
+      "Collaborated with 4 cross-functional Scrum teams, participating in sprint planning, story refinement, and daily standups, which helped integrate testing early and reduced sprint defects by improving test coverage.",
+      "Identified and tracked 280+ bugs in JIRA and Azure DevOps, writing detailed reproduction steps and severity classifications, and supported developers with troubleshooting during root-cause analysis to prevent critical issues from reaching production.",
+      "Led smoke and sanity testing for 12 production deployments on AWS and GCP, maintaining a zero critical-defect escape rate for two consecutive quarters.",
+      "Mentored 2 junior testers on test-case writing standards and effective use of JIRA for defect management, resulting in higher test-case quality and faster defect resolution.",
     ],
   },
   {
-    title: "Freelance Full-Stack Developer",
-    job: "Indian Delicacy",
-    date: "2023-2023",
+    title: "QA Analyst Intern",
+    job: "Net Solutions — Mississauga, ON",
+    date: "Apr 2023 – Jul 2023",
     contents: [
-      "Spreadeaded the development of a dynamic online full-stack restaurant application enabling users to browse menus, subscribe to newsletters, and place online orders.",
-      "Orchestrated user-role differentiation with secure login functionality for both customers and admins.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Admin dashboard included CRUD operations for supervising menu items, and pricing",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Executed manual test plans for 5 client websites and mobile apps built with React and the ArcGIS Platform, reporting 95+ defects with full documentation in Bugzilla and Trello.",
+      "Wrote Python scripts using PyTest to automate repetitive form-validation and login-flow test scenarios, cutting manual effort by 30%.",
+      "Performed cross-browser and cross-device compatibility testing on staging environments deployed on AWS using Chrome, Firefox, Safari, and Edge with automated scripts in TestNG, identifying and documenting 12 UI inconsistencies that were resolved before release.",
+      "Created and maintained comprehensive test documentation — test plans, test cases, and summary reports — using GitHub for version control and Azure Repos, which streamlined client handover and reduced review time by two days.",
+      "Participated in UAT sessions with end clients, translating business requirements into structured test scenarios and acceptance criteria using BDD (Cucumber/Gherkin), which helped achieve client sign-off on schedule and lowered post-release defects.",
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",
