@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-function Navigation({onNavigate}) {
+
+function Navigation({ onNavigate }) {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
@@ -26,9 +27,11 @@ function Navigation({onNavigate}) {
     </ul>
   );
 }
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleNavigate = () => setIsOpen(false);
+
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
       <div className="mx-auto c-space max-w-5xl">
@@ -63,7 +66,7 @@ const Navbar = () => {
           transition={{ duration: 1 }}
         >
           <nav className="pb-5">
-            <Navigation />
+            <Navigation onNavigate={handleNavigate} />
           </nav>
         </motion.div>
       )}
