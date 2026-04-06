@@ -1,177 +1,6 @@
 export const myProjects = [
   {
     id: 1,
-    title: "Online Restaurant App",
-    description:
-      "A full-stack online restaurant application built with ASP.NET Core MVC and Tailwind CSS.",
-    subDescription: [
-      "Spreadeaded the development of a dynamic online full-stack restaurant application enabling users to browse menus, subscribe to newsletters, and place online orders.",
-      "Orchestrated user-role differentiation with secure login functionality for both customers and admins.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Admin dashboard icluded CRUD operations for supervising menu items, and pricing",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/indian-delicacy.png",
-    tags: [
-      {
-        id: 1,
-        name: "Javascript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "MongoDB",
-        path: "/assets/logos/mongodb.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Blogging Platform",
-    description:
-      "A secure blogging platform with user authentication and role-based access control.",
-    subDescription: [
-      "Engineered a blogging platform allowing users to register, post blogs, and engage with content through likes, comments, and following other users.",
-      "Designed a user-centric profile section displaying followers and follwoing lists to enhance engagement.",
-      "Ensured seamless navigation and consistent performance across sessions.",
-      "Implemented secure user authentication with JWT tokens and role-based access control for admins and users.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "Java",
-        path: "/assets/logos/java.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "Java Web Development",
-        path: "/assets/logos/webdevelopment.svg",
-      },
-      {
-        id: 5,
-        name: "MVC architecture",
-        path: "/assets/logos/mvc.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Summarizer Tool",
-    description: "A application that summarizes text using AI.",
-    subDescription: [
-      "Developed a robust text and code summarization tool supporting multiple writing styles (academic, casual, buisness).",
-      "Enabled desktop deployment with a floating UI component for real-time summarization triggered by hotkeys.",
-      "Integrated Stripe payment system for one-time licensing and managed cross-platform (Winows, MacOS, Linux) compatibility.",
-      "Built dynamic settings UI to manage writing style, word count, and theme preferences.",
-    ],
-    href: "https://summarizer-tool-8dd98b6dcbe8.herokuapp.com",
-    logo: "",
-    image: "/assets/projects/summarizer-tool.png",
-    tags: [
-      {
-        id: 1,
-        name: "Python",
-        path: "/assets/logos/python.svg",
-      },
-      {
-        id: 2,
-        name: "Flask",
-        path: "/assets/logos/flask.svg",
-      },
-      {
-        id: 3,
-        name: "Tkinter",
-        path: "/assets/logos/tkinter.svg",
-      },
-      {
-        id: 4,
-        name: "Flask-SQLAlchemy",
-        path: "/assets/logos/sqlalchemy.svg",
-      },
-      {
-        id: 5,
-        name: "OpenAI",
-        path: "/assets/logos/openai.svg",
-      },
-      {
-        id: 6,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 7,
-        name: "Cross-Platform",
-        path: "/assets/logos/cross-platform.png",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "AI Schedule Generator",
-    description:
-      "AI Schedule Generator is a web application that generates personalized schedules based on user preferences and constraints.",
-    subDescription: [
-      "Designed and developed a web application where users can create accounts and upload project overviews to generate automated schedules.",
-      "The Systems analyzes project inputs and generates a detailed schedule with task breakdowns, durations, and resource allocation.",
-      "Implemented projects data storage and efficient schedule generation algorithms.",
-    ],
-    href: "https://ai-schedule-generator-2e0bff4ac042.herokuapp.com",
-    logo: "",
-    image: "/assets/projects/scheduleGenerator.png",
-    tags: [
-      {
-        id: 1,
-        name: "Python",
-        path: "/assets/logos/python.svg",
-      },
-      {
-        id: 2,
-        name: "Flask",
-        path: "/assets/logos/flask.svg",
-      },
-      {
-        id: 3,
-        name: "OPENAI",
-        path: "/assets/logos/openai.svg",
-      },
-      {
-        id: 4,
-        name: "Project Management Tools",
-        path: "/assets/logos/project-management-tools.svg",
-      },
-      {
-        id: 6,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
     title: "AI Resume Tailoring Web App",
     description:
       "A full-stack AI-powered web application that transforms generic resumes into job-specific, optimized resumes instantly.",
@@ -187,92 +16,135 @@ export const myProjects = [
     logo: "",
     image: "/assets/projects/resume-tailor.png",
     tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "Vite",
-        path: "/assets/logos/vitejs.svg",
-      },
-      {
-        id: 3,
-        name: "Node.js",
-        path: "/assets/logos/nodejs.svg",
-      },
-      {
-        id: 4,
-        name: "Express",
-        path: "/assets/logos/expressjs.svg",
-      },
-      {
-        id: 5,
-        name: "OpenAI",
-        path: "/assets/logos/openai.svg",
-      },
-      {
-        id: 6,
-        name: "Tailwind CSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 7,
-        name: "Vercel",
-        path: "/assets/logos/vercel.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Vite", path: "/assets/logos/vitejs.svg" },
+      { id: 3, name: "Node.js", path: "/assets/logos/nodejs.svg" },
+      { id: 4, name: "Express", path: "/assets/logos/expressjs.svg" },
+      { id: 5, name: "OpenAI", path: "/assets/logos/openai.svg" },
+      { id: 6, name: "Tailwind CSS", path: "/assets/logos/tailwindcss.svg" },
+      { id: 7, name: "Vercel", path: "/assets/logos/vercel.svg" },
+    ],
+  },
+  {
+    id: 2,
+    title: "E-Commerce Automation Framework",
+    description:
+      "A robust automated testing framework built with Selenium WebDriver and Python using the Page Object Model design pattern.",
+    subDescription: [
+      "Designed and documented automated test cases using a Page Object Model framework with Selenium WebDriver and Python to validate checkout flows, cart management, and user authentication across Chrome, Firefox, and Safari.",
+      "Collaborated via Git for version control and maintained clean, modular test code structure.",
+      "Configured a Jenkins pipeline to build the Dockerized test suite on every commit, enabling continuous integration.",
+      "Integrated Allure and Extent reporting for detailed, human-readable test results with failure screenshots.",
+      "Stored test artifacts in GitHub and AWS S3 for full traceability and audit history.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/auth-system.jpg",
+    tags: [
+      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
+      { id: 2, name: "Selenium", path: "/assets/logos/selenium.svg" },
+      { id: 3, name: "Docker", path: "/assets/logos/docker.svg" },
+      { id: 4, name: "Jenkins", path: "/assets/logos/jenkins.svg" },
+      { id: 5, name: "AWS S3", path: "/assets/logos/aws.svg" },
+      { id: 6, name: "Git", path: "/assets/logos/git.svg" },
+    ],
+  },
+  {
+    id: 3,
+    title: "API Performance Benchmarking Suite",
+    description:
+      "An automated performance testing pipeline using JMeter integrated with Jenkins CI on Azure VMs to load-test REST APIs under simulated peak traffic.",
+    subDescription: [
+      "Integrated JMeter test plans into a Jenkins CI pipeline on Azure VMs using Docker containers to load-test the company's REST API under 1,000 concurrent users.",
+      "Automatically archived performance artifacts in GitHub for historical tracking and regression comparison.",
+      "Produced detailed performance reports with p95/p99 latency metrics and throughput analysis.",
+      "Findings directly informed infrastructure scaling decisions and capacity planning.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/scheduleGenerator.png",
+    tags: [
+      { id: 1, name: "JMeter", path: "/assets/logos/jmeter.svg" },
+      { id: 2, name: "Jenkins", path: "/assets/logos/jenkins.svg" },
+      { id: 3, name: "Docker", path: "/assets/logos/docker.svg" },
+      { id: 4, name: "Azure", path: "/assets/logos/azure.svg" },
+      { id: 5, name: "Git", path: "/assets/logos/git.svg" },
+    ],
+  },
+  {
+    id: 4,
+    title: "Summarizer Tool",
+    description:
+      "A cross-platform AI-powered desktop and web application that summarizes text and code in multiple writing styles.",
+    subDescription: [
+      "Developed a robust text and code summarization tool supporting multiple writing styles (academic, casual, business).",
+      "Enabled desktop deployment with a floating UI component for real-time summarization triggered by hotkeys.",
+      "Integrated Stripe payment system for one-time licensing and managed cross-platform (Windows, MacOS, Linux) compatibility.",
+      "Built dynamic settings UI to manage writing style, word count, and theme preferences.",
+    ],
+    href: "https://summarizer-tool-8dd98b6dcbe8.herokuapp.com",
+    logo: "",
+    image: "/assets/projects/summarizer-tool.png",
+    tags: [
+      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
+      { id: 2, name: "Flask", path: "/assets/logos/flask.svg" },
+      { id: 3, name: "OpenAI", path: "/assets/logos/openai.svg" },
+      { id: 4, name: "Stripe", path: "/assets/logos/stripe.svg" },
+    ],
+  },
+  {
+    id: 5,
+    title: "AI Schedule Generator",
+    description:
+      "A web application that generates personalized project schedules using AI based on user-uploaded project overviews.",
+    subDescription: [
+      "Designed and developed a web application where users can create accounts and upload project overviews to generate automated schedules.",
+      "The system analyzes project inputs and generates a detailed schedule with task breakdowns, durations, and resource allocation.",
+      "Implemented project data storage and efficient schedule generation algorithms powered by OpenAI.",
+    ],
+    href: "https://ai-schedule-generator-2e0bff4ac042.herokuapp.com",
+    logo: "",
+    image: "/assets/projects/scheduleGenerator.png",
+    tags: [
+      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
+      { id: 2, name: "Flask", path: "/assets/logos/flask.svg" },
+      { id: 3, name: "OpenAI", path: "/assets/logos/openai.svg" },
+      { id: 4, name: "Stripe", path: "/assets/logos/stripe.svg" },
     ],
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Online Restaurant App",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "A full-stack online restaurant application with customer ordering and admin management built with React and MongoDB.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Spearheaded the development of a dynamic full-stack restaurant application enabling users to browse menus, subscribe to newsletters, and place online orders.",
+      "Orchestrated user-role differentiation with secure login functionality for both customers and admins.",
+      "Designed a responsive frontend with Tailwind CSS, enhancing user experience across all devices.",
+      "Admin dashboard included full CRUD operations for supervising menu items and pricing.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/indian-delicacy.png",
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Node.js", path: "/assets/logos/nodejs.svg" },
+      { id: 3, name: "MongoDB", path: "/assets/logos/mongodb.svg" },
+      { id: 4, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
     ],
   },
 ];
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
-  {
-    name: "Linkedin",
+    name: "LinkedIn",
     href: "https://linkedin.com/in/paramvir-singh-541959253/",
     icon: "/assets/socials/linkedIn.svg",
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/",
+    icon: "/assets/socials/github.svg",
   },
   {
     name: "Instagram",
@@ -289,12 +161,12 @@ export const experiences = [
     contents: [
       "Designed and executed 600+ manual test cases for a SaaS project management platform with 50,000+ active users, ensuring comprehensive coverage of critical business workflows and core modules.",
       "Built and maintained automated regression suites using Cypress and Java with TestNG and listener classes in Docker containers on AWS, reducing regression cycle time by 40% and catching 3× more pre-release defects.",
-      "Conducted API automation using Postman, REST Assured, and Karate on .NET/C# services and performed network traffic analysis with Wireshark to validate 120+ endpoints for correctness, authentication, error handling, and edge cases.",
-      "Performed database validation using SQL queries on PostgreSQL and MongoDB in GCP environments to verify data integrity across complex transactional workflows and batch jobs, catching data inconsistencies that prevented potential production issues.",
-      "Collaborated with 4 cross-functional Scrum teams, participating in sprint planning, story refinement, and daily standups, which helped integrate testing early and reduced sprint defects by improving test coverage.",
-      "Identified and tracked 280+ bugs in JIRA and Azure DevOps, writing detailed reproduction steps and severity classifications, and supported developers with troubleshooting during root-cause analysis to prevent critical issues from reaching production.",
+      "Conducted API automation using Postman, REST Assured, and Karate on .NET/C# services; performed network traffic analysis with Wireshark to validate 120+ endpoints for correctness, authentication, error handling, and edge cases.",
+      "Performed database validation using SQL queries on PostgreSQL and MongoDB in GCP environments to verify data integrity across complex transactional workflows and batch jobs.",
+      "Collaborated with 4 cross-functional Scrum teams, participating in sprint planning, story refinement, and daily standups — integrating testing early and reducing sprint defects.",
+      "Identified and tracked 280+ bugs in JIRA and Azure DevOps with detailed reproduction steps and severity classifications; supported developers during root-cause analysis to prevent critical issues from reaching production.",
       "Led smoke and sanity testing for 12 production deployments on AWS and GCP, maintaining a zero critical-defect escape rate for two consecutive quarters.",
-      "Mentored 2 junior testers on test-case writing standards and effective use of JIRA for defect management, resulting in higher test-case quality and faster defect resolution.",
+      "Mentored 2 junior testers on test-case writing standards and effective JIRA usage, resulting in higher test-case quality and faster defect resolution.",
     ],
   },
   {
@@ -304,9 +176,9 @@ export const experiences = [
     contents: [
       "Executed manual test plans for 5 client websites and mobile apps built with React and the ArcGIS Platform, reporting 95+ defects with full documentation in Bugzilla and Trello.",
       "Wrote Python scripts using PyTest to automate repetitive form-validation and login-flow test scenarios, cutting manual effort by 30%.",
-      "Performed cross-browser and cross-device compatibility testing on staging environments deployed on AWS using Chrome, Firefox, Safari, and Edge with automated scripts in TestNG, identifying and documenting 12 UI inconsistencies that were resolved before release.",
-      "Created and maintained comprehensive test documentation — test plans, test cases, and summary reports — using GitHub for version control and Azure Repos, which streamlined client handover and reduced review time by two days.",
-      "Participated in UAT sessions with end clients, translating business requirements into structured test scenarios and acceptance criteria using BDD (Cucumber/Gherkin), which helped achieve client sign-off on schedule and lowered post-release defects.",
+      "Performed cross-browser and cross-device compatibility testing on AWS staging environments using Chrome, Firefox, Safari, and Edge with TestNG scripts, identifying 12 UI inconsistencies resolved before release.",
+      "Created and maintained comprehensive test documentation — test plans, test cases, and summary reports — using GitHub for version control and Azure Repos, reducing client handover review time by two days.",
+      "Participated in UAT sessions with end clients, translating business requirements into structured test scenarios using BDD (Cucumber/Gherkin), achieving client sign-off on schedule and lowering post-release defects.",
     ],
   },
 ];
