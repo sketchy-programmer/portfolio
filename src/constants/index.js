@@ -157,10 +157,10 @@ export const experiences = [
   {
     title: "QA Software Tester",
     job: "TechNova Solutions Inc. — Toronto, ON",
-    date: "Apr 2025 – Jul 2025",
+    date: "Apr 2025 – Dec 2025",
     contents: [
       "Designed and executed 600+ manual test cases for a SaaS project management platform with 50,000+ active users, ensuring comprehensive coverage of critical business workflows and core modules.",
-      "Built and maintained automated regression suites using Cypress and Java with TestNG and listener classes in Docker containers on AWS, reducing regression cycle time by 40% and catching 3× more pre-release defects.",
+      "Built and maintained automated regression suites using Cypress, Selenium WebDriver, Appium, WebDriverIO and Java (TestNG) in Dockerized containers, cutting regression cycle time by 40% and tripling pre-release defect detection across web and mobile applications.",
       "Conducted API automation using Postman, REST Assured, and Karate on .NET/C# services; performed network traffic analysis with Wireshark to validate 120+ endpoints for correctness, authentication, error handling, and edge cases.",
       "Performed database validation using SQL queries on PostgreSQL and MongoDB in GCP environments to verify data integrity across complex transactional workflows and batch jobs.",
       "Collaborated with 4 cross-functional Scrum teams, participating in sprint planning, story refinement, and daily standups — integrating testing early and reducing sprint defects.",
