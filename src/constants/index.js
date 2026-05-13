@@ -168,19 +168,7 @@ export const experiences = [
       "Led smoke and sanity testing for 12 production deployments on AWS and GCP, maintaining a zero critical-defect escape rate for two consecutive quarters.",
       "Mentored 2 junior testers on test-case writing standards and effective JIRA usage, resulting in higher test-case quality and faster defect resolution.",
     ],
-  },
-  {
-    title: "QA Analyst Intern",
-    job: "Net Solutions — Mississauga, ON",
-    date: "Apr 2023 – Jul 2023",
-    contents: [
-      "Executed manual test plans for 5 client websites and mobile apps built with React and the ArcGIS Platform, reporting 95+ defects with full documentation in Bugzilla and Trello.",
-      "Wrote Python scripts using PyTest to automate repetitive form-validation and login-flow test scenarios, cutting manual effort by 30%.",
-      "Performed cross-browser and cross-device compatibility testing on AWS staging environments using Chrome, Firefox, Safari, and Edge with TestNG scripts, identifying 12 UI inconsistencies resolved before release.",
-      "Created and maintained comprehensive test documentation — test plans, test cases, and summary reports — using GitHub for version control and Azure Repos, reducing client handover review time by two days.",
-      "Participated in UAT sessions with end clients, translating business requirements into structured test scenarios using BDD (Cucumber/Gherkin), achieving client sign-off on schedule and lowering post-release defects.",
-    ],
-  },
+  }
 ];
 
 export const reviews = [
